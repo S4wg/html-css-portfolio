@@ -1,0 +1,164 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header #logo_menu {
+	width: 502px;
+	height: 135px;
+	display: block;
+	margin: auto;
+	padding: 50px;
+	
+}
+
+#hero {
+	background-image: url("images/hero.png");
+	display: block;
+	height: 400px;
+	margin: auto;
+	background-size: cover;
+	background-position: center;
+}
+
+#hero>h1 {
+	color: white;
+	font-family: 'Playfair Display', serif;
+	font-size:  60px;
+	font-weight: normal;
+	text-align: center;
+	line-height: 400px;
+}
+
+main {
+	display: flex;
+	width: 990px;
+	flex-direction: row;
+	margin: auto;
+}
+
+main div {
+	margin: auto;
+	width: 480px;
+}
+
+.bloc1 {
+	margin-right: 15px;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+.bloc1 h3 {
+	margin: 0px;
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+	height: 30px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	font-weight: normal;
+}
+.bloc1>.paraf {
+	margin-bottom: 22px;
+}
+.bloc1 .paraf {
+	font-family: 'Open Sans', serif;
+	font-size: 16px;
+	text-align: justify;
+}
+
+.bloc2 {
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-left: 15px;
+}
+
+.bloc2 h4 {
+	margin: 0px;
+	font-family: 'Playfair Display', serif;
+	font-size: 18px;
+	height: 30px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	font-weight: normal;
+	text-align: right;
+}
+.bloc2 a {
+	color: black;
+}
+
+.bloc2 img {
+	width: 225px;
+	height: 149px;
+	float: left;
+}
+
+
+.bloc2 img:nth-child(odd) {
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+
+.submain {
+	margin: auto;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.submain a {
+	text-decoration: none;
+	background-color: black;
+	font-family: 'Playfair Display', serif;
+	font-size: 24px;
+	font-weight: normal;
+	color: white;
+	height: 20px;
+	padding: 20px;
+}
+
+footer {
+	margin-top: 80px;
+	height: 167px;
+	background-color: black;
+}
+
+.down {
+	width: 990px;
+	margin: auto;
+}
+
+ul {
+	margin-bottom: 70px;
+	margin-top: 70px;
+	height: 27px;
+	padding-left: 0px;
+	display: inline-block;
+}
+
+footer ul li {
+	color: white;
+	list-style-type: none;
+	display: inline;
+	
+}
+
+#home {
+	margin-right: 50px;
+	margin-left: 25px;
+}
+
+#gallery {
+	margin-right: 50px;
+}
+
+ul a {
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	text-decoration: none;
+	color: white;
+}
+
+footer #logo {
+	float: right;
+	margin-right: 25px;
+	margin-top: 50px;
+}
+

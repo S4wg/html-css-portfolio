@@ -1,0 +1,174 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header #logo_menu {
+	width: 502px;
+	height: 135px;
+	display: block;
+	margin: auto;
+	padding: 50px;
+	
+}
+
+#hero {
+	background-image: url("images/hero.png");
+	display: block;
+	height: 70px;
+	margin: auto;
+	background-size: cover;
+	background-position: center;
+}
+
+#hero>h1 {
+	color: white;
+	font-family: 'Playfair Display', serif;
+	font-size:  32px;
+	font-weight: normal;
+	text-align: center;
+	line-height: 70px;
+}
+
+main {
+	margin: auto;
+	width: 990px;
+	display: flex;
+}
+
+.bloc1 {
+	margin-top: 50px;
+	margin-right: 15px;
+	width: 480px;
+}
+
+.bloc1 h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+	margin: 0px;
+	height: 30px;
+	margin-bottom: 30px;
+	font-weight: normal;
+}
+
+.paraf {
+	font-family: 'Open Sans', serif;
+	font-size: 16px;
+	text-align: justify;
+}
+
+.bloc2 {
+	margin-top: 50px;
+	margin-left: 15px;
+	width: 480px;
+}
+
+.name {
+	font-family: 'Open Sans', serif;
+	font-size: 16px;
+	height: 30px;
+	margin: 0px;
+	font-weight: normal;
+}
+
+.email {
+	font-family: 'Open Sans', serif;
+	font-size: 16px;
+	height: 24px;
+	margin: 0px;
+	margin-top: 16px;
+	font-weight: normal;
+}
+
+.message {
+	font-family: 'Open Sans', serif;
+	font-size: 16px;
+	height: 24px;
+	margin: 0px;
+	margin-top: 16px;
+	font-weight: normal;
+}
+
+.bloc2 input {
+	height: 10px;
+	width: 480px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 12px;
+	padding-right: 12px;
+	font-family: 'Open Sans', serif;
+	font-size: 16px;
+}
+
+.bloc2 .inputmess {
+	height: 100px;
+	resize: none;
+	width: 480px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 12px;
+	padding-right: 12px;
+	font-family: 'Open Sans', serif;
+	font-size: 16px;
+}
+
+.bloc2 a {
+	margin-top: 16px;
+	padding: 20px;
+	text-decoration: none;
+	display: block;
+	background-color: black;
+	font-family: 'Playfair Display', serif;
+	font-size: 24px;
+	color: white;
+	height: 20px;
+	width: 55px;
+}
+
+.down {
+	width: 990px;
+	margin: auto;
+}
+
+footer {
+	margin-top: 80px;
+	height: 167px;
+	background-color: black;
+}
+
+ul {
+	margin-bottom: 70px;
+	margin-top: 70px;
+	height: 27px;
+	padding-left: 0px;
+	display: inline-block;
+}
+
+footer ul li {
+	color: white;
+	list-style-type: none;
+	display: inline;
+	
+}
+
+#home {
+	margin-right: 50px;
+	margin-left: 25px;
+}
+
+#gallery {
+	margin-right: 50px;
+}
+
+ul a {
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	text-decoration: none;
+	color: white;
+}
+
+footer #logo {
+	float: right;
+	margin-right: 25px;
+	margin-top: 50px;
+}
